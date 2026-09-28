@@ -1,0 +1,242 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            display: flex;
+            height: 80vh;
+            /* justify-content: center; */
+            align-items: center;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            /* align-content: flex-start; */
+            /* there is no justify-items  in flexbox; */
+            flex-flow: row wrap;
+            /* gap: 30px; 
+            row-gap: 40px;
+            column-gap: 10px; */
+            gap: 40px 10px;
+
+        }
+
+        .item {  
+            /* flex-grow: 1; */
+            height: 92px;
+            width: 92px;
+            border: 2px solid black;
+            /* margin: 4px; */
+            background-color: blueviolet;
+        }
+
+        .order-1{
+            order: 1;
+        }
+        .order-2{
+            order: 2;
+        }
+        .order-3{
+            order: 3;
+        }
+
+        .item1{  
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item order-1">4</div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            
+         
+        </div>
+    </main>
+
+</body> -->
+
+<!-- </html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .container {
+            width:80 vw;
+            height: 80 vh;
+            background-color: blueviolet;
+            border: 2px solid black;
+            display: grid;
+            gap: 30px 0px ; -->
+            /* grid-template-columns: repeat(2 minmax(100px 2fr)); */
+            /* grid-template-columns: repeat(4 40px);
+            justify-content:center;
+            align-items:center; */
+
+            /* grid-template-columns: [1st] 120px [2nd] 100px [3rd];
+            grid-template-rows: 100px 100px 100px; */
+
+            /* grid-template-areas: "nav nav nav"
+                       "side article article"
+                       "footer footer footer"; */
+            
+                <!-- /* grid-template-columns : 1fr 2fr 1fr 
+    
+                
+                */ -->
+
+
+        
+
+        .item {
+            border: 2px solid black;
+            /* height: 60px; */
+            /* width: 40px;
+            background-color:aqua; */
+        }
+
+        /* .i1 {
+            grid-area: nav;
+            background-color: blue;
+
+        }
+
+        .i2 {
+            grid-area: side;
+            background-color: black;
+            color:white;
+
+
+        }
+
+        .i3 {
+            grid-area: article;
+            background-color: rgb(10, 189, 40);
+
+        }
+
+        .i4 {
+            grid-area:footer;
+            background-color: rgb(223, 46, 46);
+        }    */
+
+<!--         
+    </style>
+
+
+<body>
+
+    <div class="container">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item i3">3</div>
+        <div class="item i4">4</div>
+        <div class="item i5">5</div>
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</head>
+
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style> -->
+        .box:first-child{
+            background-color: red;
+        } 
+         .box::first-line{
+            color: yellow;
+        }
+         .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        p, a, .box, [data-color="primary"]{
+            padding-top: 45px;
+        }
+         .box:nth-child(odd){
+            background-color: blue;
+        }
+        
+        .box:nth-last-child(2){
+            background-color: red;
+        } 
+
+        .boxes::before {
+            content: "Harry is good";
+            color: blue;
+        }
+
+        .boxes::after {
+            content: "Sigma course is also good";
+            color: red;
+        }
+
+        ::selection {
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+
+        input::placeholder {
+            color: rgb(84, 84, 88);
+        }
+    <!-- </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am first box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+
+</html> 
+
+
+ --> -->
